@@ -29,7 +29,7 @@ export async function fetchExpenses() {
   return expenses;
 }
 
-export function updatedExpense(id, expenseData) {
+export function updateExpense(id, expenseData) {
   return axios.put(BACKEND_URL + `/expenses/${id}.json`, expenseData);
 }
 
