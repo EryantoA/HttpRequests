@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BACKEND_URL = "https://dpm-lecture-default-rtdb.firebaseio.com";
+const BACKEND_URL = "https://dpm-lecture-default-rtdb.firebaseiocom";
 
 export async function storeExpense(expenseData) {
   const response = await axios.post(
